@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnFood : MonoBehaviour {
 
 	public GameObject _foodPrefab;
+	public Transform _foodParent;
 	public int _startTimer;
 	public int _respawnTime;
 
@@ -17,17 +18,13 @@ public class SpawnFood : MonoBehaviour {
 	void Start () {
 		InvokeRepeating("Spawn", _startTimer, _respawnTime);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	private void Spawn()
 	{
 		int x = (int)Random.Range(_borderLeft.position.x, _borderRight.position.x);
 		int y = (int)Random.Range(_borderBottom.position.y, _borderTop.position.y);
 
-		Instantiate(_foodPrefab, new Vector2(x, y), Quaternion.identity);
+		GameObject g = (GameObject)Instantiate(_foodPrefab, new Vector2(x, y), Quaternion.identity);
+		g.transform.parent = _foodParent;
 	}
 }

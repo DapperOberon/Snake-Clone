@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50244912489290424}
   m_Layer: 0
   m_Name: TailPrefab
-  m_TagString: Untagged
+  m_TagString: Tail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

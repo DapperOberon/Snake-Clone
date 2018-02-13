@@ -72,7 +72,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -99,7 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7218723a67ca74c9fe62471705c2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameSpeed: 0.1
   tailPrefab: {fileID: 1099779596030852, guid: f2d50e51dbe4f8e4f97882de95334e2c, type: 2}
+  _tailParent: {fileID: 0}
 --- !u!212 &212894377096509542
 SpriteRenderer:
   m_ObjectHideFlags: 1
