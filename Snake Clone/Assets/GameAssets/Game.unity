@@ -376,7 +376,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8da393ef087a6c4fa2941583767b4ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameSpeed: 0.2
   _scoreText: {fileID: 1739679657}
+  _beastMode: 0
+  _difficulty: 0
 --- !u!4 &270435279
 Transform:
   m_ObjectHideFlags: 0

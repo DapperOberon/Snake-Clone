@@ -100,7 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameSpeed: 0.1
-  tailPrefab: {fileID: 1099779596030852, guid: f2d50e51dbe4f8e4f97882de95334e2c, type: 2}
+  _tailPrefab: {fileID: 1099779596030852, guid: f2d50e51dbe4f8e4f97882de95334e2c,
+    type: 2}
   _tailParent: {fileID: 0}
 --- !u!212 &212894377096509542
 SpriteRenderer:
